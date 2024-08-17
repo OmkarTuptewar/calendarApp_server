@@ -1,0 +1,44 @@
+[
+  {
+    "title": "omkar",
+    "description": "",
+    "start": "",
+    "end": "",
+    "id": "1723924261239"
+  },
+  {
+    "title": "Team Meeting",
+    "description": "\"Monthly team sync-up to discuss project progress and upcoming goals.\"",
+    "start": "2024-08-18T01:44",
+    "end": "2024-08-18T01:44",
+    "id": "1723925670719"
+  },
+  {
+    "title": "Project Deadline",
+    "description": "\"Presentation for the new client to showcase our latest product features and capabilities.\"",
+    "start": "2024-08-19T01:45",
+    "end": "2024-08-19T01:45",
+    "id": "1723925716223"
+  },
+  {
+    "title": "Grey Scientific Labs",
+    "description": "Develop a React-based calendar application that allows users to view, add, edit, and delete events. The application should be well-tested, optimised, and properly documented.",
+    "start": "2024-08-14T01:46",
+    "end": "2024-08-14T01:46",
+    "id": "1723925809738"
+  },
+  {
+    "title": "Guess the Emoji' Challenge",
+    "description": "\"Guess the secret message hidden in a string of emojis. Bonus points for creativity!\"",
+    "start": "2024-08-30T01:47",
+    "end": "2024-08-30T01:47",
+    "id": "1723925842306"
+  },
+  {
+    "description": "qw",
+    "end": "2024-08-28T02:38",
+    "start": "2024-08-18T02:38",
+    "title": "qw",
+    "id": "1723929425679"
+  }
+]
