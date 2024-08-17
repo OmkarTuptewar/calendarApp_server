@@ -1,15 +1,17 @@
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
+const cors = require('cors'); 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
-// Corrected file path to access database.json in the public folder
+
 const filePath = path.join(__dirname, '..', 'public', 'database.json');
 
 const readEventsFromFile = () => {
   if (!fs.existsSync(filePath)) {
-    fs.writeFileSync(filePath, JSON.stringify([])); // Create file if it doesn't exist
+    fs.writeFileSync(filePath, JSON.stringify([])); 
   }
   const fileContents = fs.readFileSync(filePath, 'utf8');
   return JSON.parse(fileContents);
